@@ -19,9 +19,10 @@
     <main>
       <h2>Comandos iniciais de git bash</h2>
       <ul>
+        
         <li>
+          <h3>Comandos de login</h3>
           <ul>
-            <h3>Comandos de login</h3>
             <li>
               git config --global user.name "nome do usuario do site do github"
               → comando que indica para o git bash qual o usuario que esta
@@ -34,8 +35,9 @@
           </ul>
         </li>
         <li>
+          <h3>Comandos de logout</h3>
           <ul>
-            <h3>Comandos de logout</h3>
+           
             <li>
               git config --global --unset user.name "nome do usuario do site do
               github" → Comando remove usuario atual do git hub.
@@ -46,7 +48,50 @@
             </li>
           </ul>
         </li>
+        <li>
+          <h3>comandos de rastereio de pasta</h3>
+          <ul>
+            <li>
+              git init → antes de dar esse comando esteja na pasta que deseja colocar para o servidor
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h3>rastrear versões do arquivo</h3>
+          <ul>
+            <li>
+              git add "nome-do-arquivo.estenção" → coloca arquivo em rastreamento.
+            </li>
+            <li>
+              git rm --cached -r "nome-do-arquivo.estenção" → Remove arquivo do rastreamento de versão.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h3>enviando versão para update " Commit"</h3>
+          <ul>
+            <li>
+              git commit -m "mensagem de identificação do que foi feino no arquivo."
+            </li>
+            <li>
+              git log nome-do-arquivo.estenção → indica todas as versões , datas e autor da auteração do arquivo.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h3>Clonando</h3>
+          <li>
+            git clone github.com/gabrielamorim/Java_repository.git → clona o repositorio para a minha branc.
+          </li>
+          <li>
+            git push → envia todos os commits do repositorio local para o servidor.
+          </li>
+          <li>
+            git pull → recebe atualização dos arquivos do servidor.
+          </li>
+        </li>
       </ul>
+      
     </main>
   </body>
 </html>
