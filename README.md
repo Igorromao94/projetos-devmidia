@@ -1,2 +1,3 @@
 # projetos-devmidia
-uma pasta é para os exercicios dos modulos e outra para os projetos finais
+Proposto -> projetos simples 
+Finais   -> projetos propostos na finalização de modulos 
