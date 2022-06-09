@@ -1,2 +1,2 @@
 # projetos-devmidia
-Todos os projetos devmidia estão aqui separados por pastas  
+uma pasta é para os exercicios dos modulos e outra para os projetos finais
