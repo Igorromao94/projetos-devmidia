@@ -1,0 +1,23 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'Fredoka';
+}
+
+.cabecario{
+  display: flex;
+  flex-flow: row nowrap;
+
+  align-items: center;
+
+
+}
+
+.cabecario ul{ 
+  display: flex;
+  flex-flow: row nowrap;
+  
+
+}
