@@ -2,13 +2,12 @@
   font-size: 62.5%;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
 body {
-  
   box-sizing: border-box;
 
   font-family: 'Fredoka';
@@ -54,39 +53,39 @@ main {
   margin-top: 5rem;
 }
 
-.apresentacao{
+.apresentacao {
   display: flex;
-background-image: url(../img/capa.jpg);
-background-size: cover;
-height: 40rem;
+  background-image: url(../img/capa.jpg);
+  background-size: cover;
+  height: 40rem;
 }
 
-.alocacao{
+.alocacao {
   display: flex;
   flex-flow: row-reverse;
   width: 60vw;
   margin: 2rem auto;
 }
 
-.tarja_de_apresentacao{
+.tarja_de_apresentacao {
   height: 10rem;
-  background:fixed url(../img/fundo.jpg);
+  background: fixed url(../img/fundo.jpg);
   background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.tarja_de_apresentacao .ajuste{
-background-color: aliceblue;
+.tarja_de_apresentacao .ajuste {
+  background-color: aliceblue;
 
-padding: 0.4rem 1rem;
-border-radius: 10rem;
+  padding: 0.4rem 1rem;
+  border-radius: 10rem;
 
-font-size: large;
+  font-size: large;
 }
 
-.conteudo{
+.conteudo {
   width: 60vw;
   margin: 5rem auto;
   line-height: 2rem;
@@ -94,22 +93,32 @@ font-size: large;
   font-size: 1.6rem;
 }
 
-.conteudo h4{
+.conteudo ul {
+  margin-top: 1rem;
+  margin-left: 4rem;
+}
+
+.conteudo h4 {
   font-size: large;
   font-weight: bold;
   padding: 1.5rem 0;
   line-height: 1rem;
 }
 
-.aglomerado_de_imagens{
-  margin: 0.5rem;  
+.aglomerado_de_imagens {
+  margin: 0.8rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.aglomerado_de_imagens img{
-  height: 17rem;
+.aglomerado_de_imagens img {
+  height: auto;
+  max-width: 33%;
 }
 
-p span{
+p span {
   padding-left: 0.1rem;
   border-left: solid black 0.2rem;
 }
